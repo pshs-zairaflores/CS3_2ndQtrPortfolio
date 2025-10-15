@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Zaira's Quarter 2 Portfolio</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Baskerville', serif;
+        color: teal;
+        background-color: seashell;
+      }
+      h1 {
+        text-align:center;
+      }
+      h2 {
+        text-align:center;
+      }
+      footer {
+        text-align:center;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-  <nav aria-label="Main navigation">
-    <a class="brand" href="index.html">My Site</a>
-    <ul class="nav-list">
-      <li><a href="index.html" aria-current="page">Home</a></li>
-    </ul>
-  </nav>
-</header>
-<head>
-  <title>Flores, Zaira Isabelle Portfolio</title>
-  <link rel="icon" href="/favicon.png">
-</head>
-<body>
-   <h1>Hello. I am Zaira Isabelle Flores</h1>
-   <h2>9-Strontium</h2>
-   <hr>
-   <nav>
-    <ul>
-      <li><a href="./public/2Q1GStrontiumFlores.html"> First Graded Exercise </a></li>
-    </ul>
-   </nav>
-  </section>
-  <script>
-  
-  </script>
-</body>
+      <nav aria-label="Main navigation">
+        <a class="brand" href="index.html">My Site</a>
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="./public/2Q1GStrontiumFlores.html">First Graded Exercise</a></li>
+           <h1>Zaira Isabelle E. Flores</h1>
+           <h2>9-Strontium</h2>
+        </ul>
+      </nav>
+    </header>
+    <footer>
+      <hr>
+      <p class="copyright">
+        &copy; <span id="year"></span> Zaira Isabelle E. Flores. All rights reserved.
+      </p>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
 </html>
