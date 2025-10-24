@@ -30,6 +30,11 @@
             margin-left: 75px;
             margin-right: 75px;
         }
+        img {
+            display:block;
+            margin:auto; 
+            border: 5px dotted #d159af;"
+        }
         .video-container {
             position: relative;
             padding-bottom: 56.25%;
@@ -39,8 +44,10 @@
 
         .video-container iframe {
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
         nav {
             font-size: 20px;
